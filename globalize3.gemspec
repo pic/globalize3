@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.rubyforge_project = '[none]'
   
-  s.add_dependency 'activerecord', '>= 3.0.0.rc'
+  s.add_dependency 'activerecord', '~> 3.0.19'
 
   s.add_development_dependency 'database_cleaner'
   s.add_development_dependency 'mocha'
